@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>NSPathUtilities管理路径.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Objective-C-IO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>04E2FFEF1C50EB820089E4D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04E2FFFA1C50EE5E0089E4D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
