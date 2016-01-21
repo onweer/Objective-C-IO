@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NSFileHandle处理文件IO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>NSFileManager管理文件和目录.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>04E200051C50F1E80089E4D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04E200101C50F5410089E4D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
