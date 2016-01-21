@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>NSURL读取网络资源.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>Objective-C-IO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>04E200101C50F5410089E4D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04E2001B1C50F8460089E4D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

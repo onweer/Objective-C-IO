@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04E200091C50F1E90089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200081C50F1E90089E4D0 /* main.m */; };
 		04E200141C50F5410089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200131C50F5410089E4D0 /* main.m */; };
+		04E2001F1C50F8460089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2001E1C50F8460089E4D0 /* main.m */; };
 		04E2FFC51C50AFDB0089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFC41C50AFDB0089E4D0 /* main.m */; };
 		04E2FFD21C50B5560089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFD11C50B5560089E4D0 /* main.m */; };
 		04E2FFDD1C50B9F30089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFDC1C50B9F30089E4D0 /* main.m */; };
@@ -28,6 +29,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		04E2000F1C50F5410089E4D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		04E2001A1C50F8460089E4D0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -97,6 +107,8 @@
 		04E200081C50F1E90089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E200111C50F5410089E4D0 /* NSFileHandle处理文件IO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSFileHandle处理文件IO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E200131C50F5410089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E2001C1C50F8460089E4D0 /* NSURL读取网络资源 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSURL读取网络资源"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E2001E1C50F8460089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E2FFC11C50AFDB0089E4D0 /* Objective-C-IO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C-IO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2FFC41C50AFDB0089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E2FFCF1C50B5560089E4D0 /* 数据处理NSData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据处理NSData"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +132,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04E2000E1C50F5410089E4D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E200191C50F8460089E4D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,6 +206,14 @@
 			path = "NSFileHandle处理文件IO";
 			sourceTree = "<group>";
 		};
+		04E2001D1C50F8460089E4D0 /* NSURL读取网络资源 */ = {
+			isa = PBXGroup;
+			children = (
+				04E2001E1C50F8460089E4D0 /* main.m */,
+			);
+			path = "NSURL读取网络资源";
+			sourceTree = "<group>";
+		};
 		04E2FFB81C50AFDB0089E4D0 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +225,7 @@
 				04E2FFFC1C50EE5E0089E4D0 /* NSPathUtilities管理路径 */,
 				04E200071C50F1E90089E4D0 /* 使用ProcessInfo */,
 				04E200121C50F5410089E4D0 /* NSFileHandle处理文件IO */,
+				04E2001D1C50F8460089E4D0 /* NSURL读取网络资源 */,
 				04E2FFC21C50AFDB0089E4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -213,6 +241,7 @@
 				04E2FFFB1C50EE5E0089E4D0 /* NSPathUtilities管理路径 */,
 				04E200061C50F1E80089E4D0 /* 使用ProcessInfo */,
 				04E200111C50F5410089E4D0 /* NSFileHandle处理文件IO */,
+				04E2001C1C50F8460089E4D0 /* NSURL读取网络资源 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,6 +329,23 @@
 			name = "NSFileHandle处理文件IO";
 			productName = "NSFileHandle处理文件IO";
 			productReference = 04E200111C50F5410089E4D0 /* NSFileHandle处理文件IO */;
+			productType = "com.apple.product-type.tool";
+		};
+		04E2001B1C50F8460089E4D0 /* NSURL读取网络资源 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E200201C50F8460089E4D0 /* Build configuration list for PBXNativeTarget "NSURL读取网络资源" */;
+			buildPhases = (
+				04E200181C50F8460089E4D0 /* Sources */,
+				04E200191C50F8460089E4D0 /* Frameworks */,
+				04E2001A1C50F8460089E4D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSURL读取网络资源";
+			productName = "NSURL读取网络资源";
+			productReference = 04E2001C1C50F8460089E4D0 /* NSURL读取网络资源 */;
 			productType = "com.apple.product-type.tool";
 		};
 		04E2FFC01C50AFDB0089E4D0 /* Objective-C-IO */ = {
@@ -419,6 +465,9 @@
 					04E200101C50F5410089E4D0 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					04E2001B1C50F8460089E4D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					04E2FFC01C50AFDB0089E4D0 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -459,6 +508,7 @@
 				04E2FFFA1C50EE5E0089E4D0 /* NSPathUtilities管理路径 */,
 				04E200051C50F1E80089E4D0 /* 使用ProcessInfo */,
 				04E200101C50F5410089E4D0 /* NSFileHandle处理文件IO */,
+				04E2001B1C50F8460089E4D0 /* NSURL读取网络资源 */,
 			);
 		};
 /* End PBXProject section */
@@ -477,6 +527,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E200141C50F5410089E4D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E200181C50F8460089E4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2001F1C50F8460089E4D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +625,20 @@
 			name = Debug;
 		};
 		04E200171C50F5410089E4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04E200211C50F8460089E4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E200221C50F8460089E4D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -744,6 +816,14 @@
 			buildConfigurations = (
 				04E200161C50F5410089E4D0 /* Debug */,
 				04E200171C50F5410089E4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E200201C50F8460089E4D0 /* Build configuration list for PBXNativeTarget "NSURL读取网络资源" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E200211C50F8460089E4D0 /* Debug */,
+				04E200221C50F8460089E4D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
