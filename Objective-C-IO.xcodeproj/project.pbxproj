@@ -10,6 +10,7 @@
 		04E2FFC51C50AFDB0089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFC41C50AFDB0089E4D0 /* main.m */; };
 		04E2FFD21C50B5560089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFD11C50B5560089E4D0 /* main.m */; };
 		04E2FFDD1C50B9F30089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFDC1C50B9F30089E4D0 /* main.m */; };
+		04E2FFE81C50DFFD0089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFE71C50DFFD0089E4D0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		04E2FFE31C50DFFD0089E4D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		04E2FFD11C50B5560089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E2FFDA1C50B9F30089E4D0 /* NSFileManager管理文件和目录 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSFileManager管理文件和目录"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2FFDC1C50B9F30089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E2FFE51C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "文件的创建、删除、移动、复制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E2FFE71C50DFFD0089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04E2FFE21C50DFFD0089E4D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +101,7 @@
 				04E2FFC31C50AFDB0089E4D0 /* Objective-C-IO */,
 				04E2FFD01C50B5560089E4D0 /* 数据处理NSData */,
 				04E2FFDB1C50B9F30089E4D0 /* NSFileManager管理文件和目录 */,
+				04E2FFE61C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */,
 				04E2FFC21C50AFDB0089E4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				04E2FFC11C50AFDB0089E4D0 /* Objective-C-IO */,
 				04E2FFCF1C50B5560089E4D0 /* 数据处理NSData */,
 				04E2FFDA1C50B9F30089E4D0 /* NSFileManager管理文件和目录 */,
+				04E2FFE51C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				04E2FFDC1C50B9F30089E4D0 /* main.m */,
 			);
 			path = "NSFileManager管理文件和目录";
+			sourceTree = "<group>";
+		};
+		04E2FFE61C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */ = {
+			isa = PBXGroup;
+			children = (
+				04E2FFE71C50DFFD0089E4D0 /* main.m */,
+			);
+			path = "文件的创建、删除、移动、复制";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = 04E2FFDA1C50B9F30089E4D0 /* NSFileManager管理文件和目录 */;
 			productType = "com.apple.product-type.tool";
 		};
+		04E2FFE41C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E2FFE91C50DFFD0089E4D0 /* Build configuration list for PBXNativeTarget "文件的创建、删除、移动、复制" */;
+			buildPhases = (
+				04E2FFE11C50DFFD0089E4D0 /* Sources */,
+				04E2FFE21C50DFFD0089E4D0 /* Frameworks */,
+				04E2FFE31C50DFFD0089E4D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "文件的创建、删除、移动、复制";
+			productName = "文件的创建、删除、移动、复制";
+			productReference = 04E2FFE51C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +236,9 @@
 						CreatedOnToolsVersion = 7.2;
 					};
 					04E2FFD91C50B9F30089E4D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04E2FFE41C50DFFD0089E4D0 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -209,6 +258,7 @@
 				04E2FFC01C50AFDB0089E4D0 /* Objective-C-IO */,
 				04E2FFCE1C50B5560089E4D0 /* 数据处理NSData */,
 				04E2FFD91C50B9F30089E4D0 /* NSFileManager管理文件和目录 */,
+				04E2FFE41C50DFFD0089E4D0 /* 文件的创建、删除、移动、复制 */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E2FFDD1C50B9F30089E4D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E2FFE11C50DFFD0089E4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2FFE81C50DFFD0089E4D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +420,26 @@
 			};
 			name = Release;
 		};
+		04E2FFEA1C50DFFD0089E4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(SRCROOT)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		04E2FFEB1C50DFFD0089E4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(SRCROOT)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -395,6 +473,14 @@
 			buildConfigurations = (
 				04E2FFDF1C50B9F30089E4D0 /* Debug */,
 				04E2FFE01C50B9F30089E4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E2FFE91C50DFFD0089E4D0 /* Build configuration list for PBXNativeTarget "文件的创建、删除、移动、复制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E2FFEA1C50DFFD0089E4D0 /* Debug */,
+				04E2FFEB1C50DFFD0089E4D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
