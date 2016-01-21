@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NSFileManager管理文件和目录.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Objective-C-IO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>04E2FFCE1C50B5560089E4D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04E2FFD91C50B9F30089E4D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
