@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Objective-C-IO
+//  数据处理NSData
 //
 //  Created by SpiColorPendra on 16/1/21.
 //  Copyright © 2016年 SpiColorPendra. All rights reserved.
@@ -10,7 +10,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // 对NSData的学习
+        // insert code here...
+        NSLog(@"Hello, World!");
     }
     return 0;
 }
