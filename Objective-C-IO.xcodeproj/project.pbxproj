@@ -10,6 +10,8 @@
 		0401D99B1C51E28500048202 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D99A1C51E28500048202 /* Apple.m */; };
 		0401D9A31C51EB0300048202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D9A21C51EB0300048202 /* main.m */; };
 		0401D9A91C51EC0000048202 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D9A81C51EC0000048202 /* Apple.m */; };
+		0401D9B11C51EF0E00048202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D9B01C51EF0E00048202 /* main.m */; };
+		0401D9B71C51EF4500048202 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D9B61C51EF4500048202 /* Apple.m */; };
 		04E200091C50F1E90089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200081C50F1E90089E4D0 /* main.m */; };
 		04E200141C50F5410089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200131C50F5410089E4D0 /* main.m */; };
 		04E2001F1C50F8460089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2001E1C50F8460089E4D0 /* main.m */; };
@@ -27,6 +29,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0401D99E1C51EB0300048202 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0401D9AC1C51EF0E00048202 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -154,6 +165,10 @@
 		0401D9A21C51EB0300048202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0401D9A71C51EC0000048202 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
 		0401D9A81C51EC0000048202 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		0401D9AE1C51EF0E00048202 /* 利用归档实现深复制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利用归档实现深复制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0401D9B01C51EF0E00048202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0401D9B51C51EF4500048202 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		0401D9B61C51EF4500048202 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 		04E200061C50F1E80089E4D0 /* 使用ProcessInfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "使用ProcessInfo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E200081C50F1E90089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E200111C50F5410089E4D0 /* NSFileHandle处理文件IO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSFileHandle处理文件IO"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +198,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0401D99D1C51EB0300048202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D9AB1C51EF0E00048202 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,6 +308,16 @@
 			path = "使用NSData完成自定义归档";
 			sourceTree = "<group>";
 		};
+		0401D9AF1C51EF0E00048202 /* 利用归档实现深复制 */ = {
+			isa = PBXGroup;
+			children = (
+				0401D9B51C51EF4500048202 /* Apple.h */,
+				0401D9B61C51EF4500048202 /* Apple.m */,
+				0401D9B01C51EF0E00048202 /* main.m */,
+			);
+			path = "利用归档实现深复制";
+			sourceTree = "<group>";
+		};
 		04E200071C50F1E90089E4D0 /* 使用ProcessInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +367,7 @@
 				04ED23BC1C51D5D50043D2CB /* 对象归档 */,
 				04ED23C71C51DC370043D2CB /* 实现NSCoding协议 */,
 				0401D9A11C51EB0300048202 /* 使用NSData完成自定义归档 */,
+				0401D9AF1C51EF0E00048202 /* 利用归档实现深复制 */,
 				04E2FFC21C50AFDB0089E4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -355,6 +388,7 @@
 				04ED23BB1C51D5D50043D2CB /* 对象归档 */,
 				04ED23C61C51DC370043D2CB /* 实现NSCoding协议 */,
 				0401D9A01C51EB0300048202 /* 使用NSData完成自定义归档 */,
+				0401D9AE1C51EF0E00048202 /* 利用归档实现深复制 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -443,6 +477,23 @@
 			name = "使用NSData完成自定义归档";
 			productName = "使用NSData完成自定义归档";
 			productReference = 0401D9A01C51EB0300048202 /* 使用NSData完成自定义归档 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0401D9AD1C51EF0E00048202 /* 利用归档实现深复制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401D9B21C51EF0E00048202 /* Build configuration list for PBXNativeTarget "利用归档实现深复制" */;
+			buildPhases = (
+				0401D9AA1C51EF0E00048202 /* Sources */,
+				0401D9AB1C51EF0E00048202 /* Frameworks */,
+				0401D9AC1C51EF0E00048202 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "利用归档实现深复制";
+			productName = "利用归档实现深复制";
+			productReference = 0401D9AE1C51EF0E00048202 /* 利用归档实现深复制 */;
 			productType = "com.apple.product-type.tool";
 		};
 		04E200051C50F1E80089E4D0 /* 使用ProcessInfo */ = {
@@ -661,6 +712,9 @@
 					0401D99F1C51EB0300048202 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					0401D9AD1C51EF0E00048202 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					04E200051C50F1E80089E4D0 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -724,6 +778,7 @@
 				04ED23BA1C51D5D50043D2CB /* 对象归档 */,
 				04ED23C51C51DC370043D2CB /* 实现NSCoding协议 */,
 				0401D99F1C51EB0300048202 /* 使用NSData完成自定义归档 */,
+				0401D9AD1C51EF0E00048202 /* 利用归档实现深复制 */,
 			);
 		};
 /* End PBXProject section */
@@ -735,6 +790,15 @@
 			files = (
 				0401D9A91C51EC0000048202 /* Apple.m in Sources */,
 				0401D9A31C51EB0300048202 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D9AA1C51EF0E00048202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401D9B71C51EF4500048202 /* Apple.m in Sources */,
+				0401D9B11C51EF0E00048202 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,6 +910,20 @@
 			name = Debug;
 		};
 		0401D9A61C51EB0300048202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0401D9B31C51EF0E00048202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0401D9B41C51EF0E00048202 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1113,6 +1191,14 @@
 			buildConfigurations = (
 				0401D9A51C51EB0300048202 /* Debug */,
 				0401D9A61C51EB0300048202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0401D9B21C51EF0E00048202 /* Build configuration list for PBXNativeTarget "利用归档实现深复制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0401D9B31C51EF0E00048202 /* Debug */,
+				0401D9B41C51EF0E00048202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
