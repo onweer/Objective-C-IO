@@ -38,6 +38,15 @@ int main(int argc, const char * argv[]) {
          dict中的key为one对应的appCopy颜色为 : 红色
          dictCopy中的key为one对应的app颜色为 : 紫色
          */
+        /*
+         浅层复制：只复制指向对象的指针，而不复制引用对象本身。
+         
+         计数器+1 ,就像比如retain
+         
+         深层复制：复制引用对象本身。
+         
+         计数器不变，产生新对象
+         */
         
     }
     return 0;

@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>利用归档实现深复制.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>实现NSCoding协议.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -78,6 +83,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0401D99F1C51EB0300048202</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0401D9AD1C51EF0E00048202</key>
 		<dict>
 			<key>primary</key>
 			<true/>
