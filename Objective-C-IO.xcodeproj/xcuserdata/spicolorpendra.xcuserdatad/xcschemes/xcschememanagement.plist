@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NSBundle处理项目相关资源 copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>NSBundle处理项目相关资源.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>对象归档.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>数据处理NSData.xcscheme</key>
 		<dict>
@@ -103,6 +113,16 @@
 			<true/>
 		</dict>
 		<key>04E2FFFA1C50EE5E0089E4D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04ED23AD1C51D59C0043D2CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04ED23BA1C51D5D50043D2CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
