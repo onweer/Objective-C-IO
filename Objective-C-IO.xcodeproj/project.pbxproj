@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0401D99B1C51E28500048202 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D99A1C51E28500048202 /* Apple.m */; };
+		0401D9A31C51EB0300048202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D9A21C51EB0300048202 /* main.m */; };
+		0401D9A91C51EC0000048202 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D9A81C51EC0000048202 /* Apple.m */; };
 		04E200091C50F1E90089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200081C50F1E90089E4D0 /* main.m */; };
 		04E200141C50F5410089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200131C50F5410089E4D0 /* main.m */; };
 		04E2001F1C50F8460089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2001E1C50F8460089E4D0 /* main.m */; };
@@ -24,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0401D99E1C51EB0300048202 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		04E200041C50F1E80089E4D0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +150,10 @@
 /* Begin PBXFileReference section */
 		0401D9991C51E28500048202 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
 		0401D99A1C51E28500048202 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		0401D9A01C51EB0300048202 /* 使用NSData完成自定义归档 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "使用NSData完成自定义归档"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0401D9A21C51EB0300048202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0401D9A71C51EC0000048202 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		0401D9A81C51EC0000048202 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 		04E200061C50F1E80089E4D0 /* 使用ProcessInfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "使用ProcessInfo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E200081C50F1E90089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E200111C50F5410089E4D0 /* NSFileHandle处理文件IO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSFileHandle处理文件IO"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +182,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0401D99D1C51EB0300048202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04E200031C50F1E80089E4D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +276,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0401D9A11C51EB0300048202 /* 使用NSData完成自定义归档 */ = {
+			isa = PBXGroup;
+			children = (
+				0401D9A71C51EC0000048202 /* Apple.h */,
+				0401D9A81C51EC0000048202 /* Apple.m */,
+				0401D9A21C51EB0300048202 /* main.m */,
+			);
+			path = "使用NSData完成自定义归档";
+			sourceTree = "<group>";
+		};
 		04E200071C50F1E90089E4D0 /* 使用ProcessInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +334,7 @@
 				04E200281C50F9DD0089E4D0 /* NSBundle处理项目相关资源 */,
 				04ED23BC1C51D5D50043D2CB /* 对象归档 */,
 				04ED23C71C51DC370043D2CB /* 实现NSCoding协议 */,
+				0401D9A11C51EB0300048202 /* 使用NSData完成自定义归档 */,
 				04E2FFC21C50AFDB0089E4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -321,6 +354,7 @@
 				04E200271C50F9DD0089E4D0 /* NSBundle处理项目相关资源 */,
 				04ED23BB1C51D5D50043D2CB /* 对象归档 */,
 				04ED23C61C51DC370043D2CB /* 实现NSCoding协议 */,
+				0401D9A01C51EB0300048202 /* 使用NSData完成自定义归档 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -394,6 +428,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0401D99F1C51EB0300048202 /* 使用NSData完成自定义归档 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401D9A41C51EB0300048202 /* Build configuration list for PBXNativeTarget "使用NSData完成自定义归档" */;
+			buildPhases = (
+				0401D99C1C51EB0300048202 /* Sources */,
+				0401D99D1C51EB0300048202 /* Frameworks */,
+				0401D99E1C51EB0300048202 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用NSData完成自定义归档";
+			productName = "使用NSData完成自定义归档";
+			productReference = 0401D9A01C51EB0300048202 /* 使用NSData完成自定义归档 */;
+			productType = "com.apple.product-type.tool";
+		};
 		04E200051C50F1E80089E4D0 /* 使用ProcessInfo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E2000A1C50F1E90089E4D0 /* Build configuration list for PBXNativeTarget "使用ProcessInfo" */;
@@ -607,6 +658,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SpiColorPendra;
 				TargetAttributes = {
+					0401D99F1C51EB0300048202 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					04E200051C50F1E80089E4D0 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -669,11 +723,21 @@
 				04E200261C50F9DD0089E4D0 /* NSBundle处理项目相关资源 */,
 				04ED23BA1C51D5D50043D2CB /* 对象归档 */,
 				04ED23C51C51DC370043D2CB /* 实现NSCoding协议 */,
+				0401D99F1C51EB0300048202 /* 使用NSData完成自定义归档 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0401D99C1C51EB0300048202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401D9A91C51EC0000048202 /* Apple.m in Sources */,
+				0401D9A31C51EB0300048202 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04E200021C50F1E80089E4D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -774,6 +838,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0401D9A51C51EB0300048202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0401D9A61C51EB0300048202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		04E200001C50EE5E0089E4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1030,6 +1108,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0401D9A41C51EB0300048202 /* Build configuration list for PBXNativeTarget "使用NSData完成自定义归档" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0401D9A51C51EB0300048202 /* Debug */,
+				0401D9A61C51EB0300048202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		04E2000A1C50F1E90089E4D0 /* Build configuration list for PBXNativeTarget "使用ProcessInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

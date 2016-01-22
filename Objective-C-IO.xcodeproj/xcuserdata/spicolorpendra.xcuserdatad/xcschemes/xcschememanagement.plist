@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>使用NSData完成自定义归档.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>使用ProcessInfo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -72,6 +77,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0401D99F1C51EB0300048202</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>04E200051C50F1E80089E4D0</key>
 		<dict>
 			<key>primary</key>
