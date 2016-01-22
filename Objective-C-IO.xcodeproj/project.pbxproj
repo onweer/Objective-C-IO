@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0401D99B1C51E28500048202 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D99A1C51E28500048202 /* Apple.m */; };
 		04E200091C50F1E90089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200081C50F1E90089E4D0 /* main.m */; };
 		04E200141C50F5410089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E200131C50F5410089E4D0 /* main.m */; };
 		04E2001F1C50F8460089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2001E1C50F8460089E4D0 /* main.m */; };
@@ -19,6 +20,7 @@
 		04E2FFFE1C50EE5E0089E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2FFFD1C50EE5E0089E4D0 /* main.m */; };
 		04ED23AC1C51D5370043D2CB /* bookinf.txt in Copy Files */ = {isa = PBXBuildFile; fileRef = 04E2002E1C50FA600089E4D0 /* bookinf.txt */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		04ED23BE1C51D5D50043D2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED23BD1C51D5D50043D2CB /* main.m */; };
+		04ED23C91C51DC370043D2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED23C81C51DC370043D2CB /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -123,9 +125,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		04ED23C41C51DC370043D2CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0401D9991C51E28500048202 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		0401D99A1C51E28500048202 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 		04E200061C50F1E80089E4D0 /* 使用ProcessInfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "使用ProcessInfo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E200081C50F1E90089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E200111C50F5410089E4D0 /* NSFileHandle处理文件IO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSFileHandle处理文件IO"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +162,8 @@
 		04E2FFFD1C50EE5E0089E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04ED23BB1C51D5D50043D2CB /* 对象归档 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "对象归档"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED23BD1C51D5D50043D2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04ED23C61C51DC370043D2CB /* 实现NSCoding协议 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "实现NSCoding协议"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ED23C81C51DC370043D2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04ED23C31C51DC370043D2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -279,6 +301,7 @@
 				04E2001D1C50F8460089E4D0 /* NSURL读取网络资源 */,
 				04E200281C50F9DD0089E4D0 /* NSBundle处理项目相关资源 */,
 				04ED23BC1C51D5D50043D2CB /* 对象归档 */,
+				04ED23C71C51DC370043D2CB /* 实现NSCoding协议 */,
 				04E2FFC21C50AFDB0089E4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -297,6 +320,7 @@
 				04E2001C1C50F8460089E4D0 /* NSURL读取网络资源 */,
 				04E200271C50F9DD0089E4D0 /* NSBundle处理项目相关资源 */,
 				04ED23BB1C51D5D50043D2CB /* 对象归档 */,
+				04ED23C61C51DC370043D2CB /* 实现NSCoding协议 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,6 +379,16 @@
 				04ED23BD1C51D5D50043D2CB /* main.m */,
 			);
 			path = "对象归档";
+			sourceTree = "<group>";
+		};
+		04ED23C71C51DC370043D2CB /* 实现NSCoding协议 */ = {
+			isa = PBXGroup;
+			children = (
+				0401D9991C51E28500048202 /* Apple.h */,
+				0401D99A1C51E28500048202 /* Apple.m */,
+				04ED23C81C51DC370043D2CB /* main.m */,
+			);
+			path = "实现NSCoding协议";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,6 +581,23 @@
 			productReference = 04ED23BB1C51D5D50043D2CB /* 对象归档 */;
 			productType = "com.apple.product-type.tool";
 		};
+		04ED23C51C51DC370043D2CB /* 实现NSCoding协议 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ED23CA1C51DC370043D2CB /* Build configuration list for PBXNativeTarget "实现NSCoding协议" */;
+			buildPhases = (
+				04ED23C21C51DC370043D2CB /* Sources */,
+				04ED23C31C51DC370043D2CB /* Frameworks */,
+				04ED23C41C51DC370043D2CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "实现NSCoding协议";
+			productName = "实现NSCoding协议";
+			productReference = 04ED23C61C51DC370043D2CB /* 实现NSCoding协议 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -589,6 +640,9 @@
 					04ED23BA1C51D5D50043D2CB = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					04ED23C51C51DC370043D2CB = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 04E2FFBC1C50AFDB0089E4D0 /* Build configuration list for PBXProject "Objective-C-IO" */;
@@ -614,6 +668,7 @@
 				04E2001B1C50F8460089E4D0 /* NSURL读取网络资源 */,
 				04E200261C50F9DD0089E4D0 /* NSBundle处理项目相关资源 */,
 				04ED23BA1C51D5D50043D2CB /* 对象归档 */,
+				04ED23C51C51DC370043D2CB /* 实现NSCoding协议 */,
 			);
 		};
 /* End PBXProject section */
@@ -704,6 +759,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ED23BE1C51D5D50043D2CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED23C21C51DC370043D2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401D99B1C51E28500048202 /* Apple.m in Sources */,
+				04ED23C91C51DC370043D2CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,6 +1013,20 @@
 			};
 			name = Release;
 		};
+		04ED23CB1C51DC370043D2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04ED23CC1C51DC370043D2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1058,6 +1136,16 @@
 				04ED23C11C51D5D50043D2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ED23CA1C51DC370043D2CB /* Build configuration list for PBXNativeTarget "实现NSCoding协议" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ED23CB1C51DC370043D2CB /* Debug */,
+				04ED23CC1C51DC370043D2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

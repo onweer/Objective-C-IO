@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>实现NSCoding协议.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>对象归档.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -123,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>04ED23BA1C51D5D50043D2CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04ED23C51C51DC370043D2CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
